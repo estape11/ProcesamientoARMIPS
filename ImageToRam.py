@@ -41,7 +41,6 @@ try:
 	pix = im.load()
 	ancho, alto = (im.size)
 	if( ancho == 320 and alto == 240 ):
-
 		inicio = int(round(time.time() * 1000))
 		imagen1D=[] # simula la memoria
 

@@ -47,7 +47,7 @@ try:
 
 		for y in range(0, alto):
 			for x in range(0, ancho):
-				temp=[0,pix[x,y][0],pix[x,y][1],pix[x,y][2]] # un pad para que quepa en 32 bits
+				temp=[0,pix[x,y][2],pix[x,y][1],pix[x,y][0]] # un pad para que quepa en 32 bits
 				imagen1D.append(temp)
 
 		for i in range(len(imagen1D)):

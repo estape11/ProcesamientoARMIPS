@@ -30,7 +30,8 @@ def getRGB(dato):
 	temp.append(binToDecimal(dato[:8]))
 	dato=dato[8:]
 	temp.append(binToDecimal(dato[:8]))
-	return tuple(temp[::-1])
+	#return tuple(temp[::-1])
+	return tuple([temp[2],temp[2],temp[2]])
 
 """
 	Se usa para tomar la la ruta y el nombre del archivo
